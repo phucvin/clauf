@@ -37,3 +37,7 @@ time luajit ../test/fib.lua
 time luajit -joff ../test/fib.lua
 
 4.5s
+
+time ./wasm3-cosmopolitan.com --func fib fib32.wasm 40
+
+4.9s
