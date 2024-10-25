@@ -25,3 +25,15 @@ src/clauf --help
 src/clauf ../tests/integration/if.c
 
 src/clauf ../test/t01.c
+
+time src/clauf ../test/fib.c
+
+6.5s
+
+time luajit ../test/fib.lua
+
+0.8s
+
+time luajit -joff ../test/fib.lua
+
+4.5s
