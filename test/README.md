@@ -18,4 +18,10 @@ sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-13 
 
 cmake --build .
 
+ctest
+
 src/clauf --help
+
+src/clauf ../tests/integration/if.c
+
+src/clauf ../test/t01.c
